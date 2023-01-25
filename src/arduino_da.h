@@ -2,11 +2,11 @@
 #define __ARDUINO_DA__
 #include <Arduino.h>
 
-class DA {
+class AI2O {
 public:
-  DA();
-  a2d();
-  d2a();
+  AI2O();
+  i2o(int input);
+  o2i(int output);
 };
 
 #endif
