@@ -5,10 +5,10 @@ AI2O::AI2O() {
   ;
 }
 
-AI2O::i2o() {
-  ;
+int AI2O::i2o(int input) {
+  return input / 4;
 }
 
-AI2O::o2i() {
-  ;
+int AI2O::o2i(int input) {
+  return input * 4;
 }
